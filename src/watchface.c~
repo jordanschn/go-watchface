@@ -1,8 +1,12 @@
 #include <pebble.h>
 
+// Size of the Go board (usually 19 by 19)
 #define BOARD_SIZE 19
+// Number of snapshots contained in GAME_DATA
 #define ARRAY_SIZE 52
-const double change_interval = 27.5; // Change snapshot every change_interval minutes
+
+// Change snapshot every change_interval minutes
+const double change_interval = 27.5; 
 
 // 3D array containing ARRAY_SIZE number of snapshots of the Go board represented as a 2D array of 'char's.
 // Note that if the array is too large, it may cause an overflow. 
