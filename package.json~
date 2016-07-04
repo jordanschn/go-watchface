@@ -1,0 +1,49 @@
+{
+  "name": "Time to Go",
+  "author": "Jordan Schneider",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Time to Go",
+    "uuid": "53462ad5-b750-4017-8f92-bc663fe7db30",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+	{
+	  "type": "raw",
+	  "name": "GO_BOARD",
+	  "file": "go_board.pdc"
+	},
+	{
+	  "type": "raw",
+	  "name": "BLACK_STONE",
+	  "file": "b_stone.pdc"
+	},
+	{
+	  "type": "raw",
+	  "name": "WHITE_STONE",
+	  "file": "w_stone.pdc"
+	}
+	{
+	  "type": "bitmap",
+	  "name": "IMAGE_BT_ICON",
+	  "file": "bt-icon.png"
+	}
+    ]
+    }
+  }
+}
