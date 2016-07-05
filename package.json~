@@ -1,8 +1,8 @@
 {
   "name": "Time to Go",
   "author": "Jordan Schneider",
-  "version": "1.0.0",
-  "keywords": ["pebble-app"],
+  "version": "1.0.1",
+  "keywords": ["go", "igo", "weiqi", "baduk"],
   "private": true,
   "dependencies": {},
   "pebble": {
@@ -11,9 +11,7 @@
     "sdkVersion": "3",
     "enableMultiJS": true,
     "targetPlatforms": [
-      "aplite",
-      "basalt",
-      "chalk"
+      "basalt"
     ],
     "watchapp": {
       "watchface": true
@@ -37,12 +35,18 @@
 	  "type": "raw",
 	  "name": "WHITE_STONE",
 	  "file": "w_stone.pdc"
-	}
+	},
 	{
 	  "type": "bitmap",
 	  "name": "IMAGE_BT_ICON",
 	  "file": "bt-icon.png"
-	}
+	},
+        {
+          "menuIcon": true,
+          "type": "png",
+          "name": "MENU_ICON",
+          "file": "b_stone.png"
+        }
     ]
     }
   }
